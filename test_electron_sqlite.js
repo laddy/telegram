@@ -1,0 +1,1 @@
+try { const { DatabaseSync } = require('node:sqlite'); console.log('Success'); } catch(e) { console.log(e.message); } process.exit(0);
